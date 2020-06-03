@@ -9,7 +9,7 @@ def main():
     inputFilename = 'test.txt'
     #Warning: If a file with the outputFilename name already exists, it will be overwritten with this program
     outputFilename = 'test.encrypted.txt'
-    myKey = 10
+    myKey = 9638
     myMode = 'encrypt' # Set to 'encrypt' or 'decrypt'
 
     #Check if input file exists:
