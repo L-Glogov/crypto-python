@@ -54,7 +54,7 @@ def intersectMappings(mapA, mapB):
     intersectedMapping = getBlankCipherletterMapping()
     for letter in LETTERS:
         # An empty list means "any letter is possible" and 
-        # the other map should be copied in its entirety.
+        # the other map should be copied in its entirety.git
         if mapA[letter] == []:
             intersectedMapping[letter] = copy.deepcopy(mapB[letter])
         elif mapB[letter] == []:
